@@ -42,3 +42,16 @@ public class MainDashBoardForm extends javax.swing.JFrame {
                 btnManageCustomerFormOnActionActionPerformed(evt);
             }
         });
+
+         jButton2.setBackground(new java.awt.Color(255, 255, 153));
+        jButton2.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        jButton2.setText("Search");
+
+        jButton3.setBackground(new java.awt.Color(255, 255, 153));
+        jButton3.setFont(new java.awt.Font("Segoe UI", 3, 12)); // NOI18N
+        jButton3.setText("Management System");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
