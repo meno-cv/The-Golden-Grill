@@ -143,3 +143,12 @@ public class MainDashBoardForm extends javax.swing.JFrame {
         });
     }
 
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton btnManageCustomerFormOnAction;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    // End of variables declaration                   
+}
+
