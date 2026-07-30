@@ -79,3 +79,27 @@ public class OrderManagementForm extends javax.swing.JFrame {
                 jTextField1ActionPerformed(evt);
             }
         });
+
+        jTextField2.setText("Search by ID");
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+
+        jLabel4.setText("Customer : ");
+
+        jLabel5.setText("customerName");
+
+        jLabel6.setText("address");
+
+        jLabel7.setText("Address :");
+
+        jLabel8.setText("Items : ");
+
+        jTextField3.setText(" Item Code");
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField3ActionPerformed(evt);
+            }
+        });
