@@ -103,3 +103,34 @@ public class OrderManagementForm extends javax.swing.JFrame {
                 jTextField3ActionPerformed(evt);
             }
         });
+
+        jLabel9.setText("Name : ");
+
+        jLabel10.setText("itemName");
+
+        jLabel11.setText("QTY");
+
+        jLabel12.setText("Item Quantity :");
+
+        jTextField4.setText("QTY On Hand");
+        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField4ActionPerformed(evt);
+            }
+        });
+
+        jLabel13.setText("QTY On Hand : ");
+
+        jButton1.setText("Add To Cart");
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Item Code", "Item Name", "Unit Price", "QTY On Hand"
+            }
+        ));
