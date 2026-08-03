@@ -78,4 +78,11 @@ public class ManageCustomerForm extends javax.swing.JFrame {
 
         jLabel6.setText("Contact No. :");
 
+         btnAddCustomerOnAction.setText("Add");
+        btnAddCustomerOnAction.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAddCustomerOnActionActionPerformed(evt);
+            }
+        });
+
 
