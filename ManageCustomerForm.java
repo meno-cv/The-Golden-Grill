@@ -58,3 +58,11 @@ public class ManageCustomerForm extends javax.swing.JFrame {
                 .addGap(275, 275, 275))
         );
 
+         jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addContainerGap(8, Short.MAX_VALUE))
+        );
+
