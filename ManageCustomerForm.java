@@ -66,3 +66,16 @@ public class ManageCustomerForm extends javax.swing.JFrame {
                 .addContainerGap(8, Short.MAX_VALUE))
         );
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 51, 51));
+        jLabel2.setText("Add Customer");
+
+        jLabel3.setText("ID :");
+
+        jLabel4.setText("Name :");
+
+        jLabel5.setText("Address :");
+
+        jLabel6.setText("Contact No. :");
+
+
