@@ -141,3 +141,24 @@ public class SearchCustomerForm extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(SearchCustomerForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+
+
+         java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new SearchCustomerForm().setVisible(true);
+            }
+        });
+    }
+                
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
+    private javax.swing.JTextField jTextField1;
+                    
+}
