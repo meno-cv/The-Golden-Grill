@@ -130,3 +130,37 @@ public class SearchForm extends javax.swing.JFrame {
                 .addComponent(btnBack)
                 .addContainerGap(47, Short.MAX_VALUE))
         );
+
+         pack();
+    }// </editor-fold>                        
+
+    private void btnViewOrdersActionPerformed(java.awt.event.ActionEvent evt) {                                              
+        new ViewOrdersForm().setVisible(true);
+        this.dispose();
+    }                                             
+
+    private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        new MainDashBoardForm().setVisible(true);
+        this.dispose();
+    }                                       
+
+    private void btnBestCustomerActionPerformed(java.awt.event.ActionEvent evt) {                                                
+         new BestCustomerForm().setVisible(true);
+         this.dispose();
+    }                                               
+
+    private void btnSearchOrderActionPerformed(java.awt.event.ActionEvent evt) {                                               
+         new SearchOrderForm().setVisible(true);
+         this.dispose();
+    }                                              
+
+    private void btnSearchCustomerActionPerformed(java.awt.event.ActionEvent evt) {                                                  
+       new SearchCustomerForm().setVisible(true);
+       this.dispose();
+
+    }                                                 
+
+    private void btnUpdateOrderActionPerformed(java.awt.event.ActionEvent evt) {                                               
+        new UpdateOrderForm().setVisible(true);
+        this.dispose();
+    }                  
