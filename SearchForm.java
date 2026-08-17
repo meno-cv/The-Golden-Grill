@@ -112,3 +112,21 @@ public class SearchForm extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
+         layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(58, 58, 58)
+                .addComponent(btnSearchOrder)
+                .addGap(18, 18, 18)
+                .addComponent(btnSearchCustomer)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnBestCustomer)
+                .addGap(12, 12, 12)
+                .addComponent(btnViewOrders)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnUpdateOrder)
+                .addGap(12, 12, 12)
+                .addComponent(btnBack)
+                .addContainerGap(47, Short.MAX_VALUE))
+        );
