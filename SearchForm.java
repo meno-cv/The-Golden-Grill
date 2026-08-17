@@ -93,3 +93,22 @@ public class SearchForm extends javax.swing.JFrame {
             }
         });
 
+         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(136, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
+                    .addComponent(btnSearchOrder)
+                    .addComponent(btnSearchCustomer)
+                    .addComponent(btnBestCustomer)
+                    .addComponent(btnViewOrders)
+                    .addComponent(btnUpdateOrder)
+                    .addComponent(btnBack))
+                .addGap(145, 145, 145))
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
